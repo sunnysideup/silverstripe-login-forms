@@ -72,7 +72,7 @@ class EnablerExtension extends Extension
 
     public function afterCallActionHandler()
     {
-        Config::inst()->set(Security::class, 'page_class', $this->defaultPageClass);
+        Config::modify()->set(Security::class, 'page_class', $this->defaultPageClass);
     }
 
     /**
