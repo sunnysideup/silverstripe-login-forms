@@ -24,7 +24,7 @@
   "homepage": "https://github.com/silverstripe/login-forms#readme",
   "dependencies": {
     "bootstrap": "^4.6.2",
-    "jquery": "^3.6.1",
+    "jquery": "^4.0.0",
     "popper.js": "^1.14.3"
   },
   "devDependencies": {
